@@ -1,11 +1,7 @@
 <?php 
 namespace TMSE;
 
-	use PDO;
-
-class GamesManager extends Main {
-
-	protected $DB;
+class GamesManager {
 	
 	// Create arrays to be used 
 	
