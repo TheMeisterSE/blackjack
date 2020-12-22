@@ -1,0 +1,88 @@
+body {
+	background-image: url('../images/bg2.jpg');
+	background-size: cover;
+}
+
+section#blackjack {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: #2e1a12 solid 8px;
+	
+	-webkit-border-image: url('../images/wood.jpg') 200 stretch;
+	-moz-border-image: url('../images/wood.jpg') 200 stretch;
+	border-image: url('../images/wood.jpg') 200 stretch;
+	-webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
+	
+	background-image: url('../images/blackjack.jpg');
+	background-size: cover;
+	border-radius: 20px;
+	width: 600px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#blackjackButtons {
+	margin-top: 15px;
+}
+
+section#blackjack p {
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	color: #FFF;
+	padding-top: 5px;
+	margin-bottom: -8px;
+}
+
+section#blackjack strong {
+	font-size: 27px;
+	margin-left: 20px;
+	font-weight: bold;
+	border: 2px solid #FFF;
+	color: #C0C0C0;
+	border-radius: 80px;
+	-webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+	-khtml-border-radius: 80px;
+	background-color: rgba(245, 245, 245, .2);
+	padding: 8px;
+}
+
+section#blackjack img {
+	margin-left: 5px;
+}
+
+#message {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+
+.footer-copyright {
+	color: #FFF;
+}
+
+.footer-copyright a {
+	color: #FFA;
+}
+
+@media only screen and (max-width: 600px) {
+	section#blackjack {
+		width: 100%;
+	}
+	
+	section#blackjack strong {
+		font-size: 17px;
+	}
+	
+	#message {
+		font-size: 20px;
+	}
+	
+	section#blackjack p {
+		font-size: 12px;
+	}
+}
